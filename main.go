@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	// URL Patterns
+	// Endpoints
 	http.HandleFunc("/api/posts", postsHandler)
 	http.HandleFunc("/api/ping", pingHandler)
 

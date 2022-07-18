@@ -107,7 +107,6 @@ func postsFetcher(tags []string) (*Posts, error) {
 	return &pc, nil
 }
 
-
 func postsHandler(w http.ResponseWriter, r *http.Request) {
 	// Header settings
 	w.Header().Set("Content-Type", "application/json")
